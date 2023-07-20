@@ -49,7 +49,7 @@ I don't want to publish it yet, but you can easily integrate it via your `packag
 
 Add this to your `packages.dhall` file:
 ```dhall
-with "react-basic-dom-beta" =
+with react-basic-dom-beta =
       { dependencies =
           [ "datetime"
           , "effect"
