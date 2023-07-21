@@ -58,6 +58,7 @@ with react-basic-dom-beta =
           , "nullable"
           , "prelude"
           , "react-basic"
+          , "react-basic-hooks"
           , "record"
           , "type-equality"
           , "typelevel-prelude"
