@@ -10,7 +10,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | #### Example:
 -- |
 -- | ```purescript
--- | pre { } " Preformatted text goes here. "
+-- | pre {} " Preformatted text goes here. "
 -- | ```
 --
 -- | #### Common attributes:
@@ -18,6 +18,5 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | | Name | Type | Example | Description |
 -- | |------|------|---------|-------------|
 -- | | `className` | String | "codeBlock" | CSS class of the element |
-
 pre :: FFIComponent BaseAttributes
 pre = createBuiltinElement "pre"

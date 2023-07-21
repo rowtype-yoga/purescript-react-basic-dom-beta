@@ -19,11 +19,10 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | |---------|--------|------------------|-------------|
 -- | | `cols`   | Int | 50 | Specifies the visible width |
 -- | | `rows`   | Int | 5 | Specifies the visible number of lines |
+textarea :: FFIComponent TextareaAttributes
+textarea = createBuiltinElement "textarea"
 
 type TextareaAttributes = BaseAttributesR
   ( cols :: Int
   , rows :: Int
   )
-
-textarea :: FFIComponent TextareaAttributes
-textarea = createBuiltinElement "textarea"

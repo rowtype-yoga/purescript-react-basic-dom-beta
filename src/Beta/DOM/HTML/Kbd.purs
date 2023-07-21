@@ -10,7 +10,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | #### Example:
 -- |
 -- | ```purescript
--- | kbd { } "Ctrl + P"
+-- | kbd {} "Ctrl + P"
 -- | ```
 kbd :: FFIComponent BaseAttributes
 kbd = createBuiltinElement "kbd"

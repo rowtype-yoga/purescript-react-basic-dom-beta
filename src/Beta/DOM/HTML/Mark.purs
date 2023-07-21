@@ -10,7 +10,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | #### Example:
 -- |
 -- | ```purescript
--- | mark { } "This text is highlighted."
+-- | mark {} "This text is highlighted."
 -- | ```
 --
 -- | #### Common attributes:

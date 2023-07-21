@@ -19,7 +19,7 @@ to generate this file without the comments in this block.
   , "nullable"
   , "prelude"
   , "react-basic"
-  , "react-basic-dom"
+  , "react-basic-hooks"
   , "record"
   , "type-equality"
   , "typelevel-prelude"

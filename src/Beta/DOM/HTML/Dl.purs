@@ -10,11 +10,11 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- |
 -- | #### Example:
 -- | ```purescript
--- | dl { }
--- |  [ dt { } "Term 1"
--- |  , dd { } "Description of Term 1"
--- |  , dt { } "Term 2"
--- |  , dd { } "Description of Term 2"
+-- | dl {}
+-- |  [ dt {} "Term 1"
+-- |  , dd {} "Description of Term 1"
+-- |  , dt {} "Term 2"
+-- |  , dd {} "Description of Term 2"
 -- |  ]
 -- | ```
 dl :: FFIComponent BaseAttributes

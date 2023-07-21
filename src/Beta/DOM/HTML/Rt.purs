@@ -11,7 +11,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | #### Example:
 -- |
 -- | ```purescript
--- | rt { } "Pronunciation goes here."
+-- | rt {} "Pronunciation goes here."
 -- | ```
 --
 -- | #### Common attributes:

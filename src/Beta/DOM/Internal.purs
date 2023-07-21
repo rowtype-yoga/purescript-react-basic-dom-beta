@@ -11,19 +11,26 @@ import Prim.RowList (class RowToList, RowList)
 import Prim.Symbol as Symbol
 import Prim.TypeError (class Fail, class Warn, Text)
 import React.Basic (JSX, ReactComponent)
+import React.Basic.Hooks (ReactChildren)
 import Type.Equality (class TypeEquals)
 import Type.RowList (class ListToRow)
 import Type.RowList as RL
 import Unsafe.Coerce (unsafeCoerce)
 
-foreign import createBuiltinElementImpl :: forall props children. Fn3 String props children JSX
-foreign import createBuiltinElementNoKidsImpl :: forall props. Fn2 String props JSX
+foreign import createElementImpl :: forall component props children. Fn3 component props children JSX
+foreign import createElementNoKidsImpl :: forall component props. Fn2  component props JSX
 
 createBuiltinElement :: forall props children. String -> props -> children -> JSX
-createBuiltinElement = runFn3 createBuiltinElementImpl
+createBuiltinElement = runFn3 createElementImpl
 
 createBuiltinElement_ :: forall props. String -> props -> JSX
-createBuiltinElement_ props = runFn2 createBuiltinElementNoKidsImpl props
+createBuiltinElement_ props = runFn2 createElementNoKidsImpl props
+
+createElement :: forall props props_ children. IsJSX children => Cons "children" (ReactChildren JSX) props_ props => ReactComponent {|props} -> {|props_} -> children -> JSX
+createElement = runFn3 createElementImpl
+
+createElement_ :: forall props. ReactComponent props -> props -> JSX
+createElement_ = runFn2 createElementNoKidsImpl
 
 foreign import unsafeWithChildrenImpl :: forall c p. Fn2 c p p
 

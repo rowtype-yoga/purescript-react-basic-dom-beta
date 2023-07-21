@@ -11,7 +11,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | #### Example:
 -- |
 -- | ```purescript
--- | ruby { } "Ruby annotation goes here."
+-- | ruby {} "Ruby annotation goes here."
 -- | ```
 --
 -- | #### Common attributes:

@@ -2,7 +2,7 @@ let conf = ./spago.dhall
 
 let dependencies = ["console", "spec", "node-fs-aff", "aff", "node-buffer", "react-basic-hooks", "foldable-traversable", "tuples" ]
 
-let sources = [ "test/**/*.purs" ]
+let sources = [ "src/**/*.purs", "test/**/*.purs" ]
 
 in conf //
   { dependencies = conf.dependencies # dependencies

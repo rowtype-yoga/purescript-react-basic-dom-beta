@@ -10,7 +10,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | #### Example:
 -- |
 -- | ```purescript
--- | output { } "Result goes here."
+-- | output {} "Result goes here."
 -- | ```
 output :: FFIComponent BaseAttributes
 output = createBuiltinElement "output"

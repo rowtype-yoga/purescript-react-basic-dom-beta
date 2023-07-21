@@ -33,14 +33,17 @@ type MetaAttributes =
 -- | meta { name: "twitter:title", content: "The Title of the Webpage" }
 -- | meta { name: "twitter:description", content: "The description of the webpage." }
 -- | meta { name: "twitter:image", content: "https://example.com/path/to/image.jpg" }
+-- | ```
 -- |
 -- | Common attributes:
--- || Attribute     | Type     | Example                                 | Description |
--- ||---------------|----------|-----------------------------------------|-------------|
--- || `charSet`     | `String` | `"UTF-8"`                               | Specifies the character encoding for the HTML document. |
--- || `content`     | `String` | `"width=device-width, initial-scale=1"` | Gives the value associated with the `http-equiv` or `name` attribute. |
--- || `http-equiv`  | `String` | `"refresh"`                             | Provides an HTTP header for the information/value of the content attribute. |
--- || `name`        | `String` | `"description"`                         | Defines a name for the metadata.
--- || `property`    | `String` | `"og:title"`                            | Defines the property the metadata should be associated with.
+-- |
+-- || Attribute  | Type     | Example                                 | Description |
+-- ||------------|----------|-----------------------------------------|-------------|
+-- || `charSet`  | `String` | `"UTF-8"`                               | Specifies the character encoding for the HTML document. |
+-- || `content`  | `String` | `"width=device-width, initial-scale=1"` | Gives the value associated with the `http-equiv` or `name` attribute. |
+-- || `http-equiv` | `String` | `"refresh"`                             | Provides an HTTP header for the information/value of the content attribute. |
+-- || `name`     | `String` | `"description"`                         | Defines a name for the metadata. |
+-- || `property` | `String` | `"og:title"`                            | Defines the property the metadata should be associated with. |meta :: FFIComponent_ MetaAttributes
+-- |
 meta :: FFIComponent_ MetaAttributes
 meta = createBuiltinElement_ "meta"

@@ -10,7 +10,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | #### Example:
 -- |
 -- | ```purescript
--- | rp { } "(fallback content)"
+-- | rp {} "(fallback content)"
 -- | ```
 rp :: FFIComponent BaseAttributes
 rp = createBuiltinElement "rp"

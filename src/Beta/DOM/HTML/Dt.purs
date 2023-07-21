@@ -11,7 +11,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- |
 -- | #### Example:
 -- | ```purescript
--- | dt { } "Term 1"
+-- | dt {} "Term 1"
 -- | ```
 dt :: FFIComponent BaseAttributes
 dt = createBuiltinElement "dt"

@@ -98,7 +98,7 @@ articleExample = H.article { className: "px-8" }
       , text "C"
       , H.sub { className: "text" } "1"
       ]
-   , H.h3 {} "<address>"
+  , H.h3 {} "<address>"
   , H.address { className: "footer" } "1234 Main St, Anytown, USA"
   ]
 
@@ -144,6 +144,7 @@ formExample = H.div { className: "myForm" }
   , H.iframeWithChildren { src: "https://www.example.com", className: "myIframe" } "Content of the iframe"
   , H.abbr { title: "abbreviation" } "abbr"
   , H.meter { min: "0", max: "100", value: "70" } []
+  , H.meta
   , H.progress { value: "32", max: "100" } []
   , H.audio { controls: "" }
       $ H.source { src: "path/to/audio.mp3", type: "audio/mpeg" }

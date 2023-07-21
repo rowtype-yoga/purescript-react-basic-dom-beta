@@ -12,6 +12,5 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | ```purescript
 -- | td {} "Finally the content of the cell"
 -- | ```
---
 td :: FFIComponent BaseAttributes
 td = createBuiltinElement "td"

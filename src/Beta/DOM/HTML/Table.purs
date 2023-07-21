@@ -10,7 +10,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | #### Example:
 -- |
 -- | ```purescript
--- | table { }
+-- | table {}
 -- |   [ thead {}
 -- |     [ tr {} [ th {} "Header No. 1", th {} "Header No. 2" ]
 -- |   , tbody {}

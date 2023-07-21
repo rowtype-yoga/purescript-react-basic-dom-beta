@@ -18,7 +18,6 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | | Name            | Type   | Example       | Description                        |
 -- | |-----------------|--------|---------------|------------------------------------|
 -- | | `label`         | String | "Group 1"     | Label for the option group         |
-
 option :: FFIComponent OptionAttributes
 option = createBuiltinElement "option"
 

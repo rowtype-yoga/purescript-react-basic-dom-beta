@@ -10,7 +10,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | #### Example:
 -- |
 -- | ```purescript
--- | picture { }
+-- | picture {}
 -- |   [ source { srcset: "large.jpg", media: "(min-width: 800px)" }
 -- |   , source { srcset: "medium.jpg", media: "(min-width: 600px)" }
 -- |   , img { src: "small.jpg", alt: "Description of the image" }

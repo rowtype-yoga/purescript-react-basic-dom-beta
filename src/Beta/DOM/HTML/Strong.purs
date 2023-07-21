@@ -10,7 +10,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | #### Example:
 -- |
 -- | ```purescript
--- | strong { } "Important text goes here."
+-- | strong {} "Important text goes here."
 -- | ```
 strong :: FFIComponent BaseAttributes
 strong = createBuiltinElement "strong"

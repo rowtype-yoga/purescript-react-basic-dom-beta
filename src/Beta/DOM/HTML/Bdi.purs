@@ -12,7 +12,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- |
 -- | #### Example:
 -- | ```purescript
--- | bdi { } "Text in unknown direction"
+-- | bdi {} "Text in unknown direction"
 -- | ```
 bdi :: FFIComponent BaseAttributes
 bdi = createBuiltinElement "bdi"

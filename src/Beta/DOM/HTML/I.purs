@@ -11,7 +11,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | #### Example:
 -- |
 -- | ```purescript
--- | i { } "This text is rendered in italics."
+-- | i {} "This text is rendered in italics."
 -- | ```
 i :: FFIComponent BaseAttributes
 i = createBuiltinElement "i"

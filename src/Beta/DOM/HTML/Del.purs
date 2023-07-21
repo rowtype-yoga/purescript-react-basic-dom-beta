@@ -10,7 +10,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- |
 -- | #### Example:
 -- | ```purescript
--- | del { } "This text has been deleted from the document."
+-- | del {} "This text has been deleted from the document."
 -- | ```
 del :: FFIComponent BaseAttributes
 del = createBuiltinElement "del"

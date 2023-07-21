@@ -10,7 +10,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- |
 -- | #### Example:
 -- | ```purescript
--- | em { } "This text is emphasised."
+-- | em {} "This text is emphasised."
 -- | ```
 em :: FFIComponent BaseAttributes
 em = createBuiltinElement "em"

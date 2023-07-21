@@ -10,7 +10,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | #### Example:
 -- |
 -- | ```purescript
--- | sub { } "Subscript text goes here."
+-- | sub {} "Subscript text goes here."
 -- | ```
 --
 -- | #### Common attributes:

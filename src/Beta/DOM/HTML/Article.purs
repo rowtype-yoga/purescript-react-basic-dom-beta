@@ -12,7 +12,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- |
 -- | #### Example:
 -- | ```purescript
--- | article { className: "blog-post" } [ h1 { } "Blog Post Title", p { } "Content of the blog post" ]
+-- | article { className: "blog-post" } [ h1 {} "Blog Post Title", p {} "Content of the blog post" ]
 -- | ```
 article :: FFIComponent BaseAttributes
 article = createBuiltinElement "article"

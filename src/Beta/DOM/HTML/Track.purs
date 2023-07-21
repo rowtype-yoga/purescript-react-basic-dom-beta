@@ -12,7 +12,7 @@ import Beta.DOM.Internal (FFIComponent_, createBuiltinElement_)
 -- | ```purescript
 -- | track { kind: "subtitles", src: "subs_eng.srt", srcLang: "en" }
 -- | ```
---
+-- |
 -- | #### Common attributes:
 -- |
 -- | | Name    | Type   | Example     | Description |

@@ -12,7 +12,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 -- | ```purescript
 -- | time { datetime: "2024-02-14" } "Valentine's Day"
 -- | ```
---
+-- |
 -- | #### Common attributes:
 -- |
 -- | | Name        | Type   | Example     | Description |
