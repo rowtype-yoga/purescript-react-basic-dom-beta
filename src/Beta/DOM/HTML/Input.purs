@@ -4,6 +4,7 @@ import Prelude
 
 import Beta.DOM.Attributes (BaseAttributesR)
 import Beta.DOM.Internal (FFIComponent_, createBuiltinElement_)
+import React.Basic.Events (EventHandler)
 
 -- | The `<input>` HTML element represents a field for user input.
 -- |
@@ -40,5 +41,6 @@ type InputAttributes = BaseAttributesR
   , accept :: String
   , autocomplete :: String
   , form :: String
+  , onChange :: EventHandler
   )
 

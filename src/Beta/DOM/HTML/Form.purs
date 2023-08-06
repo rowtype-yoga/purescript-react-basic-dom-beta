@@ -4,6 +4,7 @@ import Prelude
 
 import Beta.DOM.Attributes (BaseAttributesR)
 import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
+import React.Basic.Events (EventHandler)
 
 -- | The `<form>` HTML element represents a form, which is a component of an application
 -- | that is designed for the performing of an action by the user.
@@ -22,4 +23,5 @@ form = createBuiltinElement "form"
 type FormAttributes = BaseAttributesR
   ( action :: String
   , method :: String
+  , onSubmit :: EventHandler
   )
