@@ -133,19 +133,22 @@ formExample = H.div { className: "myForm" }
       [ H.input { type: "text", placeholder: "Type something", className: "inputField" }
       , H.input { type: "submit", value: "Submit", className: "submitBtn" }
       ]
-  , H.select { name: "mySelect", className: "selectField" }
-      [ H.option { value: "Option1" } "Option 1"
-      , H.option { value: "Option2" } "Option 2"
-      ]
-  , H.img { src: "https://images.unsplash.com/photo-1567201864585-6baec9110dac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80", alt: "My Image", className: "myImage" }
-  , H.span { className: "mySpan" } "Some text in a span element"
-  , H.header { className: "myHeader" } "This is a header"
-  , H.section { className: "mySection" } "This is a section"
-  , H.iframeWithChildren { src: "https://www.example.com", className: "myIframe" } "Content of the iframe"
-  , H.abbr { title: "abbreviation" } "abbr"
-  , H.meter { min: "0", max: "100", value: "70" } []
-  , H.meta
-  , H.progress { value: "32", max: "100" } []
-  , H.audio { controls: "" }
-      $ H.source { src: "path/to/audio.mp3", type: "audio/mpeg" }
+--  , H.select { name: "mySelect", className: "selectField" }
+--      [ H.option { value: "Option1" } "Option 1"
+--      , H.option { value: "Option2" } "Option 2"
+--      ]
+--  , H.img { src: "https://images.unsplash.com/photo-1567201864585-6baec9110dac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80", alt: "My Image", className: "myImage" }
+--  , H.span { className: "mySpan" } "Some text in a span element"
+--  , H.header { className: "myHeader" } "This is a header"
+--  , H.section { className: "mySection" } "This is a section"
+--  , H.iframeWithChildren { src: "https://www.example.com", className: "myIframe" } "Content of the iframe"
+--  , H.abbr { title: "abbreviation" } "abbr"
+--  , H.meter { min: "0", max: "100", value: "70" } []
+  , H.input { valu: "hi"  }
+--  , H.progress { value: "32", max: "100" } []
+--  , H.audio { controls: "" }
+--      $ H.source { src: "path/to/audio.mp3", type: "audio/mpeg" }
+
   ]
+
+x y = y.a + y.b + y.c

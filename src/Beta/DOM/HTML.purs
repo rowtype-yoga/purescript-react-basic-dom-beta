@@ -161,6 +161,7 @@ import Beta.DOM.HTML.Map
 import Beta.DOM.HTML.Mark
 import Beta.DOM.HTML.Meta
 import Beta.DOM.HTML.Meter
+import Beta.DOM.HTML.Menu
 import Beta.DOM.HTML.Nav
 import Beta.DOM.HTML.NoScript
 import Beta.DOM.HTML.Object

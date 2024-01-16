@@ -20,6 +20,7 @@ import Beta.DOM.Internal (FFIComponent_, createBuiltinElement_)
 -- || `rel`     | `String` | `"stylesheet"` | The relationship between the current document and the linked resource. |
 -- || `type`    | `String` | `"image/png"`  | The media type of the linked resource. |
 -- || `media`   | `String` | `"screen"`     | What media/device the linked resource is optimised for. |
+-- || `as`      | `String` | `"fetch"`      | This attribute is required when rel="preload" has been set on the <link> element, optional when rel="modulepreload" has been set, and otherwise should not be used. |
 link :: FFIComponent_ LinkAttributes
 link = createBuiltinElement_ "link"
 
@@ -28,4 +29,5 @@ type LinkAttributes = BaseAttributesR
   , rel :: String
   , type :: String
   , media :: String
+  , "as" :: String
   )
