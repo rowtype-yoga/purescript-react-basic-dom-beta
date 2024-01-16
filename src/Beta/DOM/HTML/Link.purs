@@ -31,4 +31,5 @@ type LinkAttributes = BaseAttributesR
   , type :: String
   , media :: String
   , "as" :: String
+  , crossOrigin :: String
   )
