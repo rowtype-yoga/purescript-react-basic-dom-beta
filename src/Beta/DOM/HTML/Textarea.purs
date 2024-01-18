@@ -4,6 +4,7 @@ import Prelude
 
 import Beta.DOM.Attributes (BaseAttributesR)
 import Beta.DOM.Internal (FFIComponent_, createBuiltinElement_)
+import React.Basic.Events (EventHandler)
 
 -- | The `<textarea>` HTML element represents a multi-line plain-text editing control.
 -- |
