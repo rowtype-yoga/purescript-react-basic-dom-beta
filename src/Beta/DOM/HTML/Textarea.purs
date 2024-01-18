@@ -38,4 +38,5 @@ type TextareaAttributes = BaseAttributesR
   , readOnly :: Boolean
   , required :: Boolean
   , wrap :: String
+  , onChange :: EventHandler
   )
