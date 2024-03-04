@@ -34,7 +34,7 @@ type InputAttributes = BaseAttributesR
   , value :: String
   , placeholder :: String
   , disabled :: Boolean
-  , autofocus :: Boolean
+  , autoFocus :: Boolean
   , required :: Boolean
   , readonly :: Boolean
   , checked :: Boolean
