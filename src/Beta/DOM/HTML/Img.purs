@@ -28,5 +28,14 @@ img = createBuiltinElement_ "img"
 type ImgAttributes = BaseAttributesR
   ( src :: String
   , alt :: String
+  , width :: String
+  , height :: String
+  , sizes :: String
+  , srcSet :: String
+  , decoding :: String
+  , loading :: String
+  , crossOrigin :: String
+  , useMap :: String
+  , isMap :: String
+  , referrerPolicy :: String
   )
-
