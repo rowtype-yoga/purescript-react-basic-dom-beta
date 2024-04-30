@@ -19,6 +19,7 @@ import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
 select :: FFIComponent SelectAttributes
 select = createBuiltinElement "select"
 
-type SelectAttributes = BaseAttributesR (
-  name :: String
-)
+type SelectAttributes = BaseAttributesR
+  ( name :: String
+  , onChange :: EffectHandler
+  )
