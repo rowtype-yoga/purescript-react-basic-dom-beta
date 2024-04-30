@@ -4,7 +4,7 @@ import Prelude
 
 import Beta.DOM.Attributes (BaseAttributes, BaseAttributesR)
 import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
-import Beta.DOM.Events (EventHandler)
+import React.Basic.Events (EventHandler)
 
 -- | The `<select>` HTML element represents a control that provides a menu of options.
 -- |
