@@ -4,6 +4,7 @@ import Prelude
 
 import Beta.DOM.Attributes (BaseAttributes, BaseAttributesR)
 import Beta.DOM.Internal (FFIComponent, createBuiltinElement)
+import Beta.DOM.Events (EventHandler)
 
 -- | The `<select>` HTML element represents a control that provides a menu of options.
 -- |
@@ -21,5 +22,5 @@ select = createBuiltinElement "select"
 
 type SelectAttributes = BaseAttributesR
   ( name :: String
-  , onChange :: EffectHandler
+  , onChange :: EventHandler
   )
