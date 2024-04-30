@@ -22,5 +22,6 @@ select = createBuiltinElement "select"
 
 type SelectAttributes = BaseAttributesR
   ( name :: String
+  , value :: String
   , onChange :: EventHandler
   )
