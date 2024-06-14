@@ -22,7 +22,7 @@ package:
     dependencies:
       - console
       - spec
-      - node-fs-aff
+      - node-fs
       - aff
       - node-buffer
       - foldable-traversable
@@ -30,4 +30,4 @@ package:
 workspace:
   extraPackages: {}
   packageSet:
-    registry: 29.1.0
+    registry: 51.2.0
