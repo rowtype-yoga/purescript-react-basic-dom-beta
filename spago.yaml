@@ -1,0 +1,33 @@
+package:
+  dependencies:
+    - datetime
+    - effect
+    - forgetmenot
+    - functions
+    - nullable
+    - prelude
+    - react-basic
+    - react-basic-hooks
+    - record
+    - type-equality
+    - typelevel-prelude
+    - unsafe-coerce
+    - web-dom
+    - web-events
+    - web-html
+    - web-touchevents
+  name: react-basic-dom-beta
+  test:
+    main: Test.Main
+    dependencies:
+      - console
+      - spec
+      - node-fs
+      - aff
+      - node-buffer
+      - foldable-traversable
+      - tuples
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 51.2.0
