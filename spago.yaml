@@ -27,6 +27,16 @@ package:
       - node-buffer
       - foldable-traversable
       - tuples
+  # Optional section for configuring the `spago publish` command.
+  # If you intend to publish your package, this section becomes mandatory.
+  publish:
+    # The version of your package. This follows semver rules, but with no
+    # prereleases - so only major.minor.patch.
+    version: 0.1.0
+    license: WTFPL
+    location:
+      githubOwner: rowtype-yoga
+      githubRepo: purescript-react-basic-dom-beta
 workspace:
   extraPackages: {}
   packageSet:
